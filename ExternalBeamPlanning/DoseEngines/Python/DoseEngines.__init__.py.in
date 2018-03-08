@@ -11,7 +11,8 @@ except AttributeError:
 import importlib
 import traceback
 engineNames = [
-  "MockPythonDoseEngine"
+  "MockPythonDoseEngine",
+  "OrthovoltageDoseEngine"
   ]
 for engineName in engineNames:
   try:
